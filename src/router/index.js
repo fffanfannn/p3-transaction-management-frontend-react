@@ -5,7 +5,7 @@ import WelcomePage from "../components/WelcomePage";
 // import MainPage from "../components/MainPage";
 // import UserData from "../components/UserData";
 // import ChartComp from "../components/ChartComp";
-// import AdminData from "../components/AdminData";
+import AdminData from "../components/AdminData";
 // import Register from "../components/Register";
 // import Login from "../components/Login";
 
@@ -21,8 +21,8 @@ function RouterIndex() {
           <Route path="account" element={<UserPage />} />
           <Route path="userdata/:id" element={<UserData />} />
           <Route path="report/:id" element={<ChartComp />} />
-        </Route>
-        <Route path="/admin" element={<AdminData />} /> */}
+        </Route>*/}
+        <Route path="/admin" element={<AdminData />} />
       </Routes>
     </BrowserRouter>
   );

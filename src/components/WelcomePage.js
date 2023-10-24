@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import ReactEcharts from "echarts-for-react";
-// import Register from "./Register";
+import Register from "./Register";
 // import Login from "./Login";
 import background_image from "../bg-3.jpg";
 
@@ -121,8 +121,8 @@ function WelcomePage() {
             </div>
             <div className="rightdiv">
               <Routes>
-                {/* <Route path="/register" element={<Register />} />
-                <Route path="/login" element={<Login />} /> */}
+                <Route path="/register" element={<Register />} />
+                {/* <Route path="/login" element={<Login />} /> */}
               </Routes>
             </div>
           </div>

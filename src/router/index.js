@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import WelcomePage from "../components/WelcomePage";
-// import MainPage from "../components/MainPage";
+import MainPage from "../components/MainPage";
 // import UserData from "../components/UserData";
 // import ChartComp from "../components/ChartComp";
 import AdminData from "../components/AdminData";
@@ -17,11 +17,11 @@ function RouterIndex() {
           {/* <Route path="register" element={<Register />} />
           <Route path="login" element={<Login />} /> */}
         </Route>
-        {/* <Route path="main" element={<MainPage />}>
-          <Route path="account" element={<UserPage />} />
+        <Route path="main" element={<MainPage />}>
+          {/* <Route path="account" element={<UserPage />} />
           <Route path="userdata/:id" element={<UserData />} />
-          <Route path="report/:id" element={<ChartComp />} />
-        </Route>*/}
+          <Route path="report/:id" element={<ChartComp />} /> */}
+        </Route>
         <Route path="/admin" element={<AdminData />} />
       </Routes>
     </BrowserRouter>

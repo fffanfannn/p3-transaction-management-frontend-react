@@ -149,7 +149,7 @@ function UserData() {
             ))}
           </tbody>
         </table>
-
+        <p>*Please refresh the page after create, update or delete</p>
         <p>{dataNote}</p>
         {renderCreateComp}
         {editDialog && <EditComp listData={listData} />}

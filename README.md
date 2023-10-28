@@ -11,6 +11,8 @@
 - This APP provide users with transaction recording and transaction histroy. For VIP users, it allows to create and customize tags/categories to organize their transactions and it generates dynamic reports and visualizations based on the recorded transactions.
 
 ## Project Flow Diagram
-![project-flow-diagram](https://github.com/fffanfannn/p2-funds-management-frontend-5/assets/118193152/0cc60195-3fdb-46ed-b468-dade34263d09)
+![image](https://github.com/fffanfannn/p3-transaction-management-frontend-react/assets/118193152/cabe6c91-f9f6-4c0b-a088-4e151428c6aa)
+
+
 
 

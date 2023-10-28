@@ -3,7 +3,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import ReactEcharts from "echarts-for-react";
 import Register from "./Register";
 import Login from "./Login";
-import background_image from "../bg-3.jpg";
+
 
 function WelcomePage() {
   const [data, setData] = useState([
@@ -110,7 +110,8 @@ function WelcomePage() {
       <section
         className="welcomePage"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.075)), url(${background_image})`,
+          backgroundImage:
+            `linear-gradient(rgba(0, 0, 0, 0.116), rgba(0, 0, 0, 0.075)), url(${process.env.PUBLIC_URL}/bg-3.jpg)`,
         }}
       >
         <div className="container">

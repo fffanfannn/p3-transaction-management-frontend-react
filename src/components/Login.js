@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import store_csrul from "../redux/store_csurl";
 
-import work_in_progress_image from "../work-in-progress.png";
-
 function Login() {
   const navigate = useNavigate();
   const [loginNote, setLoginNote] = useState("");
@@ -89,7 +87,7 @@ function Login() {
       {isTransition && (
         <div className="transition">
           <div className="transitionHoler">
-            <img src={work_in_progress_image} alt="work-in-progress" />
+            <img src={process.env.PUBLIC_URL + '/work-in-progress.png'} alt="work-in-progress" />
             <h3>{loginNote}</h3>
           </div>
         </div>

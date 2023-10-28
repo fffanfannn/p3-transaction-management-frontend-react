@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import store_csrul from "../redux/store_csurl";
 import { useNavigate } from "react-router-dom";
-import work_in_progress_image from "../work-in-progress.png";
+
 
 function Register() {
   const [registerNote, setRegisterNote] = useState("");
@@ -125,7 +125,10 @@ function Register() {
       {isTransition && (
         <div className="transition">
           <div className="transitionHoler">
-            <img src={work_in_progress_image} alt="work-in-progress" />
+            <img
+              src={process.env.PUBLIC_URL + "/work-in-progress.png"}
+              alt="work-in-progress"
+            />
             <h3>{registerNote}</h3>
           </div>
         </div>
